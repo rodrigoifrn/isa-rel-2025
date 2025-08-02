@@ -66,6 +66,8 @@ Package and version choices can be expressed via apt_preferences(5).
 Security details are available in apt-secure(8).
                                    Este APT tem Poderes de Super Vaca.
 
+```
+
 # RM
 
 ```
@@ -99,3 +101,25 @@ Information about how to configure sources can be found in sources.list(5).
 Package and version choices can be expressed via apt_preferences(5).
 Security details are available in apt-secure(8).
                                    Este APT tem Poderes de Super Vaca.
+```
+# Uso: mkdir [OPÇÃO]... DIRETÓRIO...
+```
+Cria o(s) DIRETÓRIO(s), se eles já não existirem.
+
+Argumentos obrigatórios para opções longas também o são para opções curtas.
+  -m, --mode=MODO   definir o modo do ficheiro (como chmod), não a=rwx - umask
+  -p, --parents     sem erro se existir, cria pastas-mãe se preciso
+                    com os modos de ficheiro não afectados por qualquer opção -m.
+  -v, --verbose     imprimir uma mensagem para cada pasta criada
+  -Z                   define o contexto de segurança SELinux de todo
+                         diretório criado com o tipo padrão
+      --context[=CTX]  o mesmo que -Z ou, se CTX for especificado, define
+                         o contexto de segurança SELinux ou SMACK com CTX
+      --help        display this help and exit
+      --version     output version information and exit
+
+Página de ajuda do GNU coreutils: <https://www.gnu.org/software/coreutils/>
+Relate erros de tradução para <https://translationproject.org/team/pt_BR.html>
+Documentação completa em <https://www.gnu.org/software/coreutils/mkdir>
+ou disponível localmente via: info "(coreutils) mkdir invocation
+```
